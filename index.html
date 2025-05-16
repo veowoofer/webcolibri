@@ -81,6 +81,33 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+        /* Nuevos estilos para la sección de créditos */
+        .credits {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 30px 0;
+            border-left: 4px solid #4CAF50;
+        }
+        .credits h2 {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+        .credits-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .credit-item {
+            margin: 10px;
+            text-align: center;
+            flex: 1;
+            min-width: 150px;
+        }
+        .role {
+            font-weight: bold;
+            color: #4CAF50;
+        }
     </style>
 </head>
 <body>
@@ -116,7 +143,7 @@
 
         <div class="image-container">
             <img src="imagen2.jpg" alt="Voces en el aire">
-            <p class="caption">"Voces en el aire" - David Duvils, Anais La Vr.</p>
+            <p class="caption">Voces en el aire un vuelo hacia la vida</p>
         </div>
 
         <section>
@@ -137,7 +164,25 @@
                 <source src="video_colibri.mp4" type="video/mp4">
                 Tu navegador no soporta el elemento de video.
             </video>
-            <p class="caption">Observa la belleza y agilidad del colibrí en su hábitat natural</p>
+            <p class="caption">Opiniones, encuestas. Conociendo el colibri</p>
+        </div>
+
+        <!-- NUEVA SECCIÓN DE CRÉDITOS -->
+        <div class="credits">
+            <h2>Equipo del Proyecto</h2>
+            <div class="credits-list">
+                <div class="credit-item">
+                    <div class="role">Profesora Guía</div>
+                    <div>Juneris Valbuena</div>
+                </div>
+                <div class="credit-item">
+                    <div class="role">Integrantes</div>
+                    <div>Valeria Araujo</div>
+                    <div>Selen Faria</div>
+                    <div>David Valbuena</div>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 20px;">Agradecemos a todos los que contribuyeron a la realización de este proyecto educativo sobre el maravilloso mundo del colibrí.</p>
         </div>
 
         <section>
